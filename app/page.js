@@ -81,7 +81,14 @@ export default function Home() {
 <section className="hero-section">
   <div className="hero-main">
 
-    {/* Left Content */}
+    {/* Right Content */}
+    <div className="hero-visual">
+      <div className="hero-image-wrap">
+        <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
+      </div>
+    </div>
+
+     {/* Left Visual */}
     <div className="hero-content">
       <div className="availability">
         <span className="status-dot" />
@@ -110,13 +117,6 @@ export default function Home() {
         <a href="#about" className="secondary-button">
           More about me
         </a>
-      </div>
-    </div>
-
-    {/* Right Visual */}
-    <div className="hero-visual">
-      <div className="hero-image-wrap">
-        <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
       </div>
     </div>
 
