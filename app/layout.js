@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Khem Raj Yatri — Electronics · Software · Data",
+  title: "Khem Raj Yatri",
   description:
     "Personal portfolio of Khem Raj Yatri — exploring electronics, software, embedded systems, data, and practical technology projects.",
 };
