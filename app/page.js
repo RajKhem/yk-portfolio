@@ -116,7 +116,7 @@ export default function Home() {
     {/* Right Visual */}
     <div className="hero-visual">
       <div className="hero-image-wrap">
-        <img src="ganesh.jpg" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
+        <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
       </div>
     </div>
 
@@ -256,7 +256,7 @@ export default function Home() {
             
             <div className="about-profile-mark">YK<span>.</span></div>
               <div className="hero-image-wrap">
-                <img src="ganesh.jpg" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
+                <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
               </div>
             <p className="about-profile-label">
               ELECTRONICS · SOFTWARE · DATA
