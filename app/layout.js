@@ -12,9 +12,67 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Khem Raj Yatri",
+  metadataBase: new URL("https://khemrajpaneru.com.np"),
+
+  title: {
+    default: "Khem Raj Yatri | Electronics, Software & Data",
+    template: "%s | Khem Raj Yatri",
+  },
+
   description:
-    "Personal portfolio of Khem Raj Yatri — exploring electronics, software, embedded systems, data, and practical technology projects.",
+    "Personal portfolio of Khem Raj Yatri — an electronics and technology enthusiast building projects across embedded systems, software, data, and practical problem solving.",
+
+  keywords: [
+    "Khem Raj Yatri",
+    "Yatri",
+    "Khem Raj Paneru",
+    "Khem Raj",
+    "Paneru",
+    "Electronics",
+    "Embedded Systems",
+    "Software",
+    "Data",
+    "Python",
+    "NEPSE",
+    "Technology Projects",
+    "Nepal",
+    "PabrozLab"
+  ],
+
+  authors: [
+    {
+      name: "Khem Raj Yatri",
+      url: "https://khemrajpaneru.com.np",
+    },
+  ],
+
+  creator: "Khem Raj Yatri",
+
+  alternates: {
+    canonical: "https://khemrajpaneru.com.np",
+  },
+
+  openGraph: {
+    title: "Khem Raj Yatri | Electronics, Software & Data",
+    description:
+      "Electronics, software, embedded systems, data, and practical technology projects by Khem Raj Yatri.",
+    url: "https://khemrajpaneru.com.np",
+    siteName: "Khem Raj Yatri",
+    type: "website",
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Khem Raj Yatri | Electronics, Software & Data",
+    description:
+      "Electronics, software, embedded systems, data, and practical technology projects by Khem Raj Yatri.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -23,7 +81,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
