@@ -1764,14 +1764,30 @@ color: var(--accent);
   }
 }
 
-/* Touch devices */
-@media (hover: none) {
-  .work-card:active,
-  .skill-card:active,
-  .project-card:active
-  {
-    transform: scale(0.98);
+/* =========================================================
+   TOUCH DEVICES — SCROLL REVEAL
+   ========================================================= */
+
+@media (hover: none) and (pointer: coarse) {
+
+  .work-card,
+  .skill-card,
+  .project-card {
+    transition:
+      transform 0.4s ease,
+      border-color 0.4s ease,
+      background 0.4s ease,
+      box-shadow 0.4s ease;
   }
+
+  .work-card.is-visible,
+  .skill-card.is-visible,
+  .project-card.is-visible {
+    transform: translateY(-5px);
+    border-color: var(--border-hover);
+
+  }
+
 }
 
 /* 

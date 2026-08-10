@@ -2,6 +2,7 @@ import projects from "@/data/projects";
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
 import Image from "next/image";
+import ScrollReveal from "@/components/ScrollReveal";
 
 {/* Selected Projects */}
 <section id="projects" className="section projects-section">
@@ -58,6 +59,7 @@ const skills = [
 export default function Home() {
   return (
     <main>
+      <ScrollReveal />
       {/* Navigation */}
       <nav className="navbar">
         <div className="nav-container">
