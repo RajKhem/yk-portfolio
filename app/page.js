@@ -86,7 +86,7 @@ export default function Home() {
     {/* Right Content */}
     <div className="hero-visual">
       <div className="hero-image-wrap">
-        <Image src="/yk.webp" alt="Khem Raj Yatri — Electronics, Software and Technology" width={500} height={500} className="w-full h-auto" priority />
+        <Image src="/yk.webp" alt="Khem Raj Yatri — Electronics, Software and Technology" width={500} height={500} className="w-full h-auto" preload />
       </div>
     </div>
 
@@ -124,23 +124,6 @@ export default function Home() {
 
   </div>
 
-  {/* Bottom Meta
-  <div className="hero-meta">
-    <div>
-      <span>BASED IN</span>
-      <strong>NEPAL</strong>
-    </div>
-
-    <div>
-      <span>FOCUS</span>
-      <strong>TECH &amp; BUILDING</strong>
-    </div>
-
-    <div className="scroll-indicator">
-      <span>SCROLL TO EXPLORE</span>
-      <div className="scroll-line" />
-    </div>
-  </div> */}
 </section>
       {/* What I Work On */}
       <section className="section work-section">
@@ -243,9 +226,8 @@ export default function Home() {
 
         <div className="about-grid">
           <div className="about-profile">            
-            {/* <div className="about-profile-mark">YK<span>.</span></div> */}
               <div className="hero-image-wrap">
-                <Image src="/yk2.webp" alt="Khem Raj Yatri — Electronics, Software and Technology" width={500} height={500} className="w-full h-auto" priority />
+                <Image src="/yk2.webp" alt="Khem Raj Yatri — Electronics, Software and Technology" width={500} height={500} className="w-full h-auto" preload />
               </div>
           </div>
 
