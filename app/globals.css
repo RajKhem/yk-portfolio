@@ -41,7 +41,7 @@ body {
 
   color: #ffffff;
   font-family: "Inter", sans-serif;
-  line-height: 1.6;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -727,18 +727,14 @@ color: var(--accent);
 }
 
 .skill-card:hover {
-  background: #fff;
-  color: #1d0459;
-  /* background: #3a0a8f;
-  color: #fff; */
+  /* background: #fff;
+  color: #1d0459; */
+  background: #3a0a8f;
+  color: #fff;
   transition: background 0.25s ease;
   transform: scale(1.05);
 }
 
-/* .skill-card span {
-  color: #fff;
-  font-size: 12px;
-} */
 
 .skill-card strong {
   font-size: 20px;
@@ -923,11 +919,9 @@ color: var(--accent);
 
 .contact-eyebrow {
   color: var(--accent-bright);
-
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 2px;
-
   margin-bottom: 20px;
 }
 
@@ -1150,7 +1144,7 @@ color: var(--accent);
 }
 
 .work-header h2 span {
-  color: #5d626d;
+  color: #f2ff00;
 }
 
 .work-header > p {
@@ -1172,7 +1166,7 @@ color: var(--accent);
 .work-card {
   min-height: 420px;
 
-  padding: 28px;
+  padding: 20px;
 
   border-right: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -1233,8 +1227,7 @@ color: var(--accent);
 .work-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-
+  gap: 5px;
   margin-top: 25px;
 }
 
@@ -1243,9 +1236,7 @@ color: var(--accent);
 
   border: 1px solid var(--border);
   border-radius: 100px;
-
   color: #fff;
-
   font-size: 10px;
   font-weight: 600;
 }
@@ -1295,7 +1286,7 @@ color: var(--accent);
 .project-category {
   color: var(--accent-bright) !important;
 
-  font-size: 9px !important;
+  font-size: 12px !important;
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -1398,7 +1389,7 @@ color: var(--accent);
 
   margin-top: 28px;
 
-  color: var(--text-muted);
+  color: #ffffff;
 
   font-size: 12px;
   line-height: 1.8;

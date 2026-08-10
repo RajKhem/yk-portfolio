@@ -1,6 +1,7 @@
 import projects from "@/data/projects";
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
+import Image from "next/image";
 
 {/* Selected Projects */}
 <section id="projects" className="section projects-section">
@@ -80,11 +81,11 @@ export default function Home() {
       {/* Hero */}
 <section className="hero-section">
   <div className="hero-main">
-
     {/* Right Content */}
     <div className="hero-visual">
       <div className="hero-image-wrap">
-        <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
+        {/* <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/> */}
+        <Image src="/yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology" width={1200} height={800} className="w-full h-auto" />
       </div>
     </div>
 
@@ -226,10 +227,10 @@ export default function Home() {
               </p>
 
               <div className="work-tags">
-                <span>NEPSE</span>
-                <span>Pandas</span>
                 <span>Data Analysis</span>
+                <span>Pandas</span>
                 <span>Trading Systems</span>
+                <span>NEPSE</span>
               </div>
             </div>
           </article>
@@ -243,24 +244,12 @@ export default function Home() {
           ABOUT ME
         </div>
 
-        {/* <div className="about-intro">
-          <h3>
-            I like understanding
-            how things work —
-            <span> then building them myself.</span>
-          </h3>
-        </div> */}
-
         <div className="about-grid">
           <div className="about-profile">            
             {/* <div className="about-profile-mark">YK<span>.</span></div> */}
               <div className="hero-image-wrap">
-                <img src="yk2.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
+                <Image src="/yk2.png" alt="Khem Raj Yatri — Electronics, Software and Technology" width={1200} height={800} className="w-full h-auto" />
               </div>
-            {/* <p className="about-profile-label">
-              ELECTRONICS · SOFTWARE · DATA
-            </p> */}
-
           </div>
 
           <div className="about-story">
