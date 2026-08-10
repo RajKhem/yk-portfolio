@@ -86,8 +86,8 @@ export default function Home() {
     {/* Right Content */}
     <div className="hero-visual">
       <div className="hero-image-wrap">
-        {/* <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/> */}
-        <Image src="/yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology" width={1200} height={800} className="w-full h-auto" priority />
+        {/* <Image src="/yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology" width={1200} height={800} className="w-full h-auto" priority /> */}
+        <Image src="/yk.webp" alt="Khem Raj Yatri — Electronics, Software and Technology" width={800} height={533} className="w-full h-auto" priority />
       </div>
     </div>
 
