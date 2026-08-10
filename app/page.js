@@ -105,7 +105,7 @@ export default function Home() {
 
       <p className="hero-description">
         I&apos;m Khem Raj Yatri — an electronics and technology enthusiast
-        exploring hardware, software, data, and real-world problem solving
+        exploring hardware, software, data and real-world problem solving
         through personal projects.
       </p>
 
@@ -243,30 +243,24 @@ export default function Home() {
           ABOUT ME
         </div>
 
-        <div className="about-intro">
+        {/* <div className="about-intro">
           <h3>
             I like understanding
             how things work —
             <span> then building them myself.</span>
           </h3>
-        </div>
+        </div> */}
 
         <div className="about-grid">
-          <div className="about-profile">
-            
-            <div className="about-profile-mark">YK<span>.</span></div>
+          <div className="about-profile">            
+            {/* <div className="about-profile-mark">YK<span>.</span></div> */}
               <div className="hero-image-wrap">
-                <img src="yk.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
+                <img src="yk2.png" alt="Khem Raj Yatri — Electronics, Software and Technology"/>
               </div>
-            <p className="about-profile-label">
+            {/* <p className="about-profile-label">
               ELECTRONICS · SOFTWARE · DATA
-            </p>
+            </p> */}
 
-            <div className="about-line" />
-
-            <p className="about-profile-note">
-              A personal record of things I build, experiment with, and learn.
-            </p>
           </div>
 
           <div className="about-story">
@@ -332,7 +326,7 @@ export default function Home() {
         <div className="skills-grid">
           {skills.map((skill, index) => (
             <div className="skill-card" key={skill}>
-              <span>0{index + 1}</span>
+              {/* <span>0{index + 1}</span> */}
               <strong>{skill}</strong>
             </div>
           ))}
@@ -347,17 +341,15 @@ export default function Home() {
         </div>
 
         <div className="projects-header">
-          <h2>
-            Things I&apos;ve
-            <br />
-            <span>been building.</span>
-          </h2>
+          <h3 style={{ color: "#fff704" }}>
+            Things I&apos;ve been building.
+          </h3>
 
-          <p>
+          {/* <p>
             A selection of projects across electronics, software,
             data, and technology — from ongoing experiments to
             systems I&apos;m actively developing.
-          </p>
+          </p> */}
         </div>
 
         <div className="projects-list">
