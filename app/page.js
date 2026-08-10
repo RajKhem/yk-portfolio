@@ -153,12 +153,8 @@ export default function Home() {
           <h2>
             From circuits
             <br />
-            <span>to software.</span>
+            <span> to software...</span>
           </h2>
-         
-            I like working across different layers of technology — from physical
-            electronics and embedded systems to software, data, and practical
-            problem solving.
           
         </div>
 
