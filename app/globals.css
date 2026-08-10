@@ -931,34 +931,6 @@ color: var(--accent);
   margin-bottom: 20px;
 }
 
-/* .contact-main h2 {
-  margin: 0;
-
-  font-size: clamp(52px, 6vw, 82px);
-
-  line-height: 0.98;
-
-  letter-spacing: -4px;
-
-  font-weight: 750;
-}
-
-.contact-main h2 span {
-  color: rgba(235, 19, 19, 0.45);}
-   */
-
-/* .contact-description {
-  max-width: 540px;
-
-  margin-top: 32px;
-  margin-bottom: 42px;
-
-  color: rgba(0, 0, 0, 0.6);
-
-  font-size: 14px;
-
-  line-height: 1.85;
-} */
 
 .contact-inner h2 {
   font-size: clamp(50px, 7vw, 92px);
@@ -967,7 +939,7 @@ color: var(--accent);
 }
 
 .contact-inner h2 span {
-  color: #1a3912;
+  color: #f2ff00;
 }
 
 .contact-button {
