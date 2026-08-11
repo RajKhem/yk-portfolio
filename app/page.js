@@ -265,13 +265,13 @@ export default function Home() {
               along the way.
             </p>
 
-            <div className="about-quote">
+            {/* <div className="about-quote">
               <span>“</span>
               <p>
                 I&apos;m less interested in simply using technology than in
                 understanding what&apos;s behind it and building something of my own.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
