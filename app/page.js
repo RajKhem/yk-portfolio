@@ -72,6 +72,7 @@ export default function Home() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <a href="/nepse">NEPSE</a>
           </div>
 
           <a href="#contact" className="nav-button">
