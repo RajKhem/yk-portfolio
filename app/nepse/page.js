@@ -42,9 +42,19 @@ function parseCSV(csv) {
 }
 
 export const metadata = {
-  title: "NEPSE Signals — Khem Raj Yatri",
-  description:
-    "NEPSE technical-analysis signal history and market screening output by Khem Raj Yatri.",
+  title: "NEPSE",
+  description: "Nepal Stock Exchange data, analysis and tools.",
+
+  alternates: {
+    canonical: "/nepse",
+  },
+
+  openGraph: {
+    title: "NEPSE | Khem Raj Yatri",
+    description: "Nepal Stock Exchange data, analysis and tools.",
+    url: "/nepse",
+    type: "website",
+  },
 };
 
 export default function NepsePage() {

@@ -48,15 +48,10 @@ export const metadata = {
 
   creator: "Khem Raj Yatri",
 
-  alternates: {
-    canonical: "https://khemrajpaneru.com.np",
-  },
-
   openGraph: {
     title: "Khem Raj Yatri | Electronics, Software & Data",
     description:
       "Electronics, software, embedded systems, data, and practical technology projects by Khem Raj Yatri.",
-    url: "https://khemrajpaneru.com.np",
     siteName: "Khem Raj Yatri",
     type: "website",
     locale: "en_US",
