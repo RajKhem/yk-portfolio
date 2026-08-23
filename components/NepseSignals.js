@@ -157,7 +157,11 @@ export default function NepseSignals({ rows }) {
       <div className="nepse-container">
         {/* HEADER */}
             <div className="nepse-label">
-              NEPSE Trading System
+              <span className="nepse">NEPSE</span>
+              <span className="world"> WORLD</span>
+            </div>
+            <div className="nepse-label-subhead">
+              Data driven NEPSE Trading System.
             </div>
             <div className="nepse-eyebrow">           
               *Do your own research before making any investment decisions.
