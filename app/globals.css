@@ -1817,20 +1817,31 @@ color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #00750c;
   font-size: 50px;
   font-weight: 700;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  BACKGROUND: #aaae924a;
 }
 
+.nepse {
+  color: green;
+}
 
-.nepse-header {
+.world {
+  color: red;
+  margin-left: 20px;
+}
+
+.nepse-label-subhead {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 60px;
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #060606;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  
 }
 
 .nepse-eyebrow {
@@ -1841,6 +1852,14 @@ color: var(--accent);
   color: #ff0015;
   font-size: 14px;
   letter-spacing: 1px;
+}
+
+.nepse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 60px;
+  margin-bottom: 20px;
 }
 
 .nepse-title {
