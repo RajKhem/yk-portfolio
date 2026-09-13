@@ -174,9 +174,12 @@ export default function NepseSignals({ rows }) {
             </h1> */}
 
             <p className="nepse-description">
+              Generated Signal Overview:
+            </p>
+            {/* <p className="nepse-description">
               Generated Signal Overview from my NEPSE
               technical-analysis screening system.
-            </p>
+            </p> */}
           </div>
 
           <div className="nepse-updated">
