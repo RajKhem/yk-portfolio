@@ -89,7 +89,7 @@ function normalizeRows(rows) {
 
       return dateB - dateA;
 
-     
+
     });
 }
 
@@ -153,19 +153,19 @@ export default function NepseSignals({ rows }) {
   const latestDate = groupedRows[0]?.date;
 
   return (
-    <section className="nepse-section">     
+    <section className="nepse-section">
       <div className="nepse-container">
         {/* HEADER */}
-            <div className="nepse-label">
-              <span className="nepse">NEPSE</span>
-              <span className="world"> WORLD</span>
-            </div>
-            <div className="nepse-label-subhead">
-              Data driven NEPSE Trading System.
-            </div>
-            <div className="nepse-eyebrow">           
-              *Do your own research before making any investment decisions.
-            </div>
+        <div className="nepse-label">
+          <span className="nepse">NEPSE</span>
+          <span className="world"> WORLD</span>
+        </div>
+        <div className="nepse-label-subhead">
+          Data driven NEPSE Trading System.
+        </div>
+        <div className="nepse-eyebrow">
+          *Do your own research before making any investment decisions.
+        </div>
         <div className="nepse-header">
           <div>
             {/* <h1 className="nepse-title">
@@ -174,7 +174,7 @@ export default function NepseSignals({ rows }) {
             </h1> */}
 
             <p className="nepse-description">
-              Signal history generated from my NEPSE
+              Generated Signal Overview from my NEPSE
               technical-analysis screening system.
             </p>
           </div>
